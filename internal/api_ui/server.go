@@ -859,7 +859,7 @@ func documentation(w http.ResponseWriter, _ *http.Request) {
 }
 
 func favicon(w http.ResponseWriter, _ *http.Request) {
-	writeFile("api_ui/polygon.png", "image/png", w)
+	writeFile("api_ui/energyid.png", "image/png", w)
 }
 
 func swagger(w http.ResponseWriter, _ *http.Request) {

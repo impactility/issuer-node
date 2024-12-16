@@ -63,9 +63,9 @@ export const DEBOUNCE_INPUT_TIMEOUT = 500;
 
 export const DOTS_DROPDOWN_WIDTH = 60;
 
-export const FEEDBACK_URL = "https://forms.gle/W8xuqY3UjPnY5Nj16";
+export const FEEDBACK_URL = "/feedback";
 
-export const IMAGE_PLACEHOLDER_PATH = "/images/image-preview.png";
+export const IMAGE_PLACEHOLDER_PATH = "/images/energyid-icon.png";
 
 export const POLLING_INTERVAL = 10000;
 
@@ -75,12 +75,11 @@ export const SIDER_WIDTH = 320;
 
 export const TOAST_NOTIFICATION_TIMEOUT = 6;
 
-export const DOCS_URL = "https://devs.polygonid.com";
+export const DOCS_URL = "/docs";
 
-export const WALLET_APP_STORE_URL = "https://apps.apple.com/us/app/polygon-id/id1629870183";
+export const WALLET_APP_STORE_URL = "/ios_wallet";
 
-export const WALLET_PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.polygonid.wallet";
+export const WALLET_PLAY_STORE_URL = "/android_wallet";
 
 export const IPFS_PUBLIC_GATEWAY_CHECKER_URL = "https://ipfs.github.io/public-gateway-checker/";
 
