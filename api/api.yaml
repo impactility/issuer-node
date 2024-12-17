@@ -511,15 +511,15 @@ components:
             method:
               type: string
               x-omitempty: false
-              example: "polygonid"
+              example: "energy"
             blockchain:
               type: string
               x-omitempty: false
-              example: "polygon"
+              example: "energyweb"
             network:
               type: string
               x-omitempty: false
-              example: "amoy"
+              example: "volta"
             type:
               type: string
               x-omitempty: false
