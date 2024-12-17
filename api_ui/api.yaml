@@ -330,7 +330,7 @@ paths:
           name: did
           schema:
             type: string
-            example: did:polygonid:polygon:amoy:2qFpPHotk6oyaX1fcrpQFT4BMnmg8YszUwxYtaoGoe
+            example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
         - in: query
           name: status
           schema:
@@ -1085,7 +1085,7 @@ components:
               example: [ ]
         from:
           type: string
-          example: did:polygonid:polygon:amoy:2qFpPHotk6oyaX1fcrpQFT4BMnmg8YszUwxYtaoGoe
+          example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
 
     QrCodeLinkShortResponse:
       type: object
@@ -1286,7 +1286,7 @@ components:
             id: "did:polygonid:polygon:amoy:2qDDDKmo436EZGCBAvkqZjADYoNRJszkG7UymZeCHQ"
         userID:
           type: string
-          example: did:polygonid:polygon:amoy:2qFpPHotk6oyaX1fcrpQFT4BMnmg8YszUwxYtaoGoe
+          example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
         refreshService:
           $ref: '#/components/schemas/RefreshService'
         displayMethod:
@@ -1497,7 +1497,7 @@ components:
         issuerID:
           type: string
           x-omitempty: false
-          example: did:polygonid:polygon:amoy:2qFpPHotk6oyaX1fcrpQFT4BMnmg8YszUwxYtaoGoe
+          example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
         createdAt:
           $ref: '#/components/schemas/TimeUTC'
         credentials:
