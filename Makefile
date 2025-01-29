@@ -100,6 +100,10 @@ build-arm:
 build-ui:
 	COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_FILE="Dockerfile" $(DOCKER_COMPOSE_CMD) build api-ui ui notifications pending_publisher
 
+.PHONY: build-ui-only
+build-ui-only:
+	COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_FILE="Dockerfile" $(DOCKER_COMPOSE_CMD) build ui
+
 .PHONY: build-ui-arm
 build-ui-arm:
 	@echo "WARN: Running ARM version is deprecated. 'make build-ui' will be executed instead."
