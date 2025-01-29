@@ -1095,7 +1095,7 @@ components:
       properties:
         qrCodeLink:
           type: string
-          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-demo.polygonid.me%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
+          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-ui.energy.impactid.org%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
         sessionID:
           $ref: '#/components/schemas/UUIDString'
 
@@ -1108,7 +1108,7 @@ components:
       properties:
         qrCodeLink:
           type: string
-          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-demo.polygonid.me%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
+          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-ui.energy.impactid.org%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
         schemaType:
           type: string
           example: "vaccinationCertificate"
@@ -1158,7 +1158,7 @@ components:
           type: string
         qrCodeLink:
           type: string
-          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-demo.polygonid.me%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
+          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-ui.energy.impactid.org%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
         sessionID:
           type: string
           example: ab5d5dbf-aaaa-bbbb-b983-f48afea64e05
@@ -1185,7 +1185,7 @@ components:
       properties:
         qrCode:
           type: string
-          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-demo.polygonid.me%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
+          example: iden3comm://?request_uri=https%3A%2F%2Fissuer-ui.energy.impactid.org%2Fapi%2Fqr-store%3Fid%3Df780a169-8959-4380-9461-f7200e2ed3f4
         status:
           type: string
           example: done | pending | pendingPublish
@@ -1283,7 +1283,7 @@ components:
           example:
             birthday: 19960424
             documentType: 2
-            id: "did:polygonid:polygon:amoy:2qDDDKmo436EZGCBAvkqZjADYoNRJszkG7UymZeCHQ"
+            id: "did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw"
         userID:
           type: string
           example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
@@ -1493,7 +1493,7 @@ components:
         userID:
           type: string
           x-omitempty: false
-          example: did:polygonid:polygon:amoy:2qMZrfBsXuGFTwSqkqYki78zF3pe1vtXoqH4yRLsfs
+          example: did:energy:energyweb:volta:4mEMwbBax5zGD1aCNgxT2TVsL8FZX8qUuv3GQ8wnjw
         issuerID:
           type: string
           x-omitempty: false

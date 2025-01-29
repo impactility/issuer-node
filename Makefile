@@ -78,6 +78,10 @@ run-arm:
 run-ui: add-host-url-swagger
 	COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_FILE="Dockerfile" $(DOCKER_COMPOSE_CMD) up -d api-ui ui notifications pending_publisher
 
+.PHONY: run-ui-only
+run-ui-only:
+	COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_FILE="Dockerfile" $(DOCKER_COMPOSE_CMD) up -d ui
+
 .PHONY: run-ui-arm
 run-ui-arm: add-host-url-swagger
 	@echo "WARN: Running ARM version is deprecated. 'make run-ui' will be executed instead."
